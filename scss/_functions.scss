@@ -1,0 +1,10 @@
+$black: #363636;
+
+@mixin fontFamily($a: 0) {
+	@if ($a == 1) {
+		font-family: 'Caveat', cursive;
+	}
+	@else {
+		font-family: 'Open Sans', sans-serif;
+	}
+}

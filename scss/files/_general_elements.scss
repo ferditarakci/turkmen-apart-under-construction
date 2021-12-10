@@ -1,0 +1,36 @@
+body,
+input,
+select,
+textarea,
+button,
+h1, h2, h3, h4, h5, h6 {
+	@include fontFamily();
+}
+
+body {
+	line-height: 1.4;
+	font-size: 15px;
+	font-weight: 400;
+	color: $black;
+	background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px;
+	line-height: 1.15;
+	font-weight: 700;
+	letter-spacing: -0.25px;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 22px;
+}
